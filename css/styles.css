@@ -199,7 +199,33 @@ footer span {
 
 }
 
+@media only screen and (max-width: 422px) {
 
+    header {
+        height: 170px;
+    }
+
+    main {
+        margin-top: 170px;
+    }
+
+    .logo {
+      height: 60px; 
+      padding-top: 10px;  
+      margin: 0;
+    }
+  
+
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-nav li {
+        margin-bottom: 5px;
+    }
+
+}
 
 
 
