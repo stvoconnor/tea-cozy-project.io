@@ -165,8 +165,11 @@ footer span {
     margin-top: 10px;
 }
 
-@media only screen and (max-width: 998px) {
+@media only screen and (max-width: 880px) {
 
+    footer {
+        text-align: center;
+    }
 
 }
 
@@ -202,11 +205,11 @@ footer span {
 @media only screen and (max-width: 422px) {
 
     header {
-        height: 170px;
+        height: 190px;
     }
 
     main {
-        margin-top: 170px;
+        margin-top: 190px;
     }
 
     .logo {
